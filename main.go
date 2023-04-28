@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/golang-test/helper"
+	"github.com/mahardhika21/golang-test.git/helper"
 )
 
 func main() {
-	fmt.Println(hello_world.HelloWorld("zul"))
+	fmt.Println(helper.HelloWorld("zul"))
 }
